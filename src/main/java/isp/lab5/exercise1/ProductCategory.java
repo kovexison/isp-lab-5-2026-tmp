@@ -5,8 +5,10 @@ package isp.lab5.exercise1;
  */
 public enum ProductCategory {
     ELECTRONICS("Electronics & Gadgets"),
-    FASHION("Fashion");
-    // todo: add the rest of the constants
+    FASHION("Fashion"),
+    HOME_AND_GARDEN("Home and Garden"),
+    BEAUTY("Beauty"),
+    TOYS("Toys");
 
     private String displayName;
 
